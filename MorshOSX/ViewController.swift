@@ -11,6 +11,7 @@ import ReSwift
 
 class ViewController: NSViewController, StoreSubscriber {
     @IBOutlet weak var textField: NSTextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,7 @@ class ViewController: NSViewController, StoreSubscriber {
         print(state)
         print(state.vector)
         print()
-        textField.stringValue = "\(state)\n\(state.vector)"
+        textField.stringValue = "\(state)\n\(state.string)"
     }
 }
 

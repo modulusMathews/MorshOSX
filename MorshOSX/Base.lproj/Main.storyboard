@@ -645,7 +645,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="MorshOSX" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="75" y="28"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -673,12 +673,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Izx-qJ-XUU">
+                            <textField focusRingType="none" verticalHuggingPriority="750" placeholderIntrinsicWidth="480" placeholderIntrinsicHeight="270" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-Vf-G2T">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="270" id="WgL-WS-qnv"/>
-                                </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" focusRingType="none" alignment="center" drawsBackground="YES" id="k4B-Os-pv9">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" focusRingType="none" alignment="center" drawsBackground="YES" id="o51-T1-32F">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -686,18 +683,19 @@
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Izx-qJ-XUU" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="DyY-Kh-sr8"/>
-                            <constraint firstAttribute="trailing" secondItem="Izx-qJ-XUU" secondAttribute="trailing" id="Zar-dw-Vs3"/>
-                            <constraint firstItem="Izx-qJ-XUU" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="cr4-VB-exG"/>
+                            <constraint firstAttribute="bottom" secondItem="p2a-Vf-G2T" secondAttribute="bottom" id="AP9-qN-X2K"/>
+                            <constraint firstItem="p2a-Vf-G2T" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Q5g-yg-Swn"/>
+                            <constraint firstAttribute="trailing" secondItem="p2a-Vf-G2T" secondAttribute="trailing" id="V22-dL-WQF"/>
+                            <constraint firstItem="p2a-Vf-G2T" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="aNd-9Y-3Zp"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textField" destination="Izx-qJ-XUU" id="Vpk-17-B6L"/>
+                        <outlet property="textField" destination="p2a-Vf-G2T" id="Fbb-mb-K1r"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="638"/>
         </scene>
     </scenes>
 </document>

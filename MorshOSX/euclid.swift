@@ -1,18 +1,27 @@
 import Foundation
 
-
+// Base State
 protocol Euclid {
     var resolution: Int { get }
     var density: Int { get }
     var phase: Int { get }
 }
 
+// Compute Vector
 extension Euclid {
     var vector: [Bool] {
         return vecGen(lhs: density, rhs: resolution - density, phase: phase)
     }
 }
 
+// Compute Vector as String
+extension Euclid {
+    var string: String {
+        return vector.reduce("") { $0 + ($1 ? "1" : "0") }
+    }
+}
+
+//// Computation Utitlities
 private
 func vecGen(lhs lhs: Int, rhs: Int, phase: Int) -> [Bool] {
     if lhs == 0 && rhs == 0 { return [] }

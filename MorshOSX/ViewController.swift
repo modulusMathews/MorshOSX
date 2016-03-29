@@ -7,21 +7,21 @@
 //
 
 import Cocoa
+import ReSwift
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, StoreSubscriber {
+    @IBOutlet weak var textField: NSTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        euclidStore.subscribe(self)
     }
-
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
+    
+    func newState(state: EuclidState) {
+        print(state)
+        print(state.vector)
+        print()
+        textField.stringValue = "\(state)\n\(state.vector)"
     }
-
-
 }
 

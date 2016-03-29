@@ -7,6 +7,14 @@
 //
 
 import Cocoa
+import ReSwift
+
+
+let resolution = 12
+let euclidState = EuclidState(resolution: resolution)
+let euclidReducer = EuclidReducer(defaultState: euclidState)
+let euclidStore = Store(reducer: euclidReducer, state: euclidState)
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

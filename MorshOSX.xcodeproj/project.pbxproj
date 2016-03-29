@@ -13,6 +13,14 @@
 		71AFBCF51CAA4519009CB06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AFBCF31CAA4519009CB06D /* Main.storyboard */; };
 		71AFBD001CAA4519009CB06D /* MorshOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBCFF1CAA4519009CB06D /* MorshOSXTests.swift */; };
 		71AFBD0B1CAA4519009CB06D /* MorshOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD0A1CAA4519009CB06D /* MorshOSXUITests.swift */; };
+		71AFBD191CAA48D4009CB06D /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AFBD181CAA48D4009CB06D /* ReSwift.framework */; };
+		71AFBD1A1CAA48D4009CB06D /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71AFBD181CAA48D4009CB06D /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71AFBD1E1CAA490E009CB06D /* ReSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71AFBD1D1CAA490E009CB06D /* ReSwift.framework.dSYM */; };
+		71AFBD3D1CAA4AA3009CB06D /* euclid.actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD391CAA4AA3009CB06D /* euclid.actions.swift */; };
+		71AFBD3E1CAA4AA3009CB06D /* euclid.reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3A1CAA4AA3009CB06D /* euclid.reducer.swift */; };
+		71AFBD3F1CAA4AA3009CB06D /* euclid.state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3B1CAA4AA3009CB06D /* euclid.state.swift */; };
+		71AFBD401CAA4AA3009CB06D /* euclid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3C1CAA4AA3009CB06D /* euclid.swift */; };
+		71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		71AFBD1B1CAA48D4009CB06D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71AFBD1A1CAA48D4009CB06D /* ReSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBD1C1CAA48E6009CB06D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				71AFBD1E1CAA490E009CB06D /* ReSwift.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		71AFBCEA1CAA4519009CB06D /* MorshOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorshOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AFBCED1CAA4519009CB06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +77,13 @@
 		71AFBD061CAA4519009CB06D /* MorshOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorshOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AFBD0A1CAA4519009CB06D /* MorshOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorshOSXUITests.swift; sourceTree = "<group>"; };
 		71AFBD0C1CAA4519009CB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AFBD181CAA48D4009CB06D /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/Mac/ReSwift.framework; sourceTree = "<group>"; };
+		71AFBD1D1CAA490E009CB06D /* ReSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReSwift.framework.dSYM; path = Carthage/Build/Mac/ReSwift.framework.dSYM; sourceTree = "<group>"; };
+		71AFBD391CAA4AA3009CB06D /* euclid.actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.actions.swift; sourceTree = "<group>"; };
+		71AFBD3A1CAA4AA3009CB06D /* euclid.reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.reducer.swift; sourceTree = "<group>"; };
+		71AFBD3B1CAA4AA3009CB06D /* euclid.state.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.state.swift; sourceTree = "<group>"; };
+		71AFBD3C1CAA4AA3009CB06D /* euclid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.swift; sourceTree = "<group>"; };
+		71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorshWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AFBD191CAA48D4009CB06D /* ReSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +115,7 @@
 		71AFBCE11CAA4519009CB06D = {
 			isa = PBXGroup;
 			children = (
+				71AFBD1F1CAA4955009CB06D /* ReSwift */,
 				71AFBCEC1CAA4519009CB06D /* MorshOSX */,
 				71AFBCFE1CAA4519009CB06D /* MorshOSXTests */,
 				71AFBD091CAA4519009CB06D /* MorshOSXUITests */,
@@ -95,11 +136,13 @@
 		71AFBCEC1CAA4519009CB06D /* MorshOSX */ = {
 			isa = PBXGroup;
 			children = (
+				71AFBD411CAA4AAE009CB06D /* Euclid */,
 				71AFBCED1CAA4519009CB06D /* AppDelegate.swift */,
 				71AFBCEF1CAA4519009CB06D /* ViewController.swift */,
 				71AFBCF11CAA4519009CB06D /* Assets.xcassets */,
 				71AFBCF31CAA4519009CB06D /* Main.storyboard */,
 				71AFBCF61CAA4519009CB06D /* Info.plist */,
+				71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */,
 			);
 			path = MorshOSX;
 			sourceTree = "<group>";
@@ -122,6 +165,26 @@
 			path = MorshOSXUITests;
 			sourceTree = "<group>";
 		};
+		71AFBD1F1CAA4955009CB06D /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBD1D1CAA490E009CB06D /* ReSwift.framework.dSYM */,
+				71AFBD181CAA48D4009CB06D /* ReSwift.framework */,
+			);
+			name = ReSwift;
+			sourceTree = "<group>";
+		};
+		71AFBD411CAA4AAE009CB06D /* Euclid */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBD391CAA4AA3009CB06D /* euclid.actions.swift */,
+				71AFBD3A1CAA4AA3009CB06D /* euclid.reducer.swift */,
+				71AFBD3B1CAA4AA3009CB06D /* euclid.state.swift */,
+				71AFBD3C1CAA4AA3009CB06D /* euclid.swift */,
+			);
+			name = Euclid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +195,8 @@
 				71AFBCE61CAA4519009CB06D /* Sources */,
 				71AFBCE71CAA4519009CB06D /* Frameworks */,
 				71AFBCE81CAA4519009CB06D /* Resources */,
+				71AFBD1B1CAA48D4009CB06D /* Embed Frameworks */,
+				71AFBD1C1CAA48E6009CB06D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -252,8 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AFBD3F1CAA4AA3009CB06D /* euclid.state.swift in Sources */,
+				71AFBD401CAA4AA3009CB06D /* euclid.swift in Sources */,
 				71AFBCF01CAA4519009CB06D /* ViewController.swift in Sources */,
+				71AFBD3E1CAA4AA3009CB06D /* euclid.reducer.swift in Sources */,
 				71AFBCEE1CAA4519009CB06D /* AppDelegate.swift in Sources */,
+				71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */,
+				71AFBD3D1CAA4AA3009CB06D /* euclid.actions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +457,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = MorshOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSX;
@@ -399,6 +473,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = MorshOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSX;

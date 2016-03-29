@@ -7,10 +7,14 @@ protocol Euclid {
     var phase: Int { get }
 }
 
-// Compute Vector
+// Compute Vector & Indices
 extension Euclid {
     var vector: [Bool] {
         return vecGen(lhs: density, rhs: resolution - density, phase: phase)
+    }
+    
+    var indices: [Int] {
+        return vector.indicesOf(true)
     }
 }
 

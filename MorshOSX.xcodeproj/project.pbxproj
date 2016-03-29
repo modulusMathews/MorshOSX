@@ -21,6 +21,7 @@
 		71AFBD3F1CAA4AA3009CB06D /* euclid.state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3B1CAA4AA3009CB06D /* euclid.state.swift */; };
 		71AFBD401CAA4AA3009CB06D /* euclid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3C1CAA4AA3009CB06D /* euclid.swift */; };
 		71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */; };
+		71AFBD461CAAED29009CB06D /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD451CAAED29009CB06D /* array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		71AFBD3B1CAA4AA3009CB06D /* euclid.state.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.state.swift; sourceTree = "<group>"; };
 		71AFBD3C1CAA4AA3009CB06D /* euclid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.swift; sourceTree = "<group>"; };
 		71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorshWindow.swift; sourceTree = "<group>"; };
+		71AFBD451CAAED29009CB06D /* array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		71AFBCEC1CAA4519009CB06D /* MorshOSX */ = {
 			isa = PBXGroup;
 			children = (
+				71AFBD441CAAECF3009CB06D /* Utilities */,
 				71AFBD411CAA4AAE009CB06D /* Euclid */,
 				71AFBCED1CAA4519009CB06D /* AppDelegate.swift */,
 				71AFBCEF1CAA4519009CB06D /* ViewController.swift */,
@@ -183,6 +186,14 @@
 				71AFBD3C1CAA4AA3009CB06D /* euclid.swift */,
 			);
 			name = Euclid;
+			sourceTree = "<group>";
+		};
+		71AFBD441CAAECF3009CB06D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBD451CAAED29009CB06D /* array.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +333,7 @@
 				71AFBCF01CAA4519009CB06D /* ViewController.swift in Sources */,
 				71AFBD3E1CAA4AA3009CB06D /* euclid.reducer.swift in Sources */,
 				71AFBCEE1CAA4519009CB06D /* AppDelegate.swift in Sources */,
+				71AFBD461CAAED29009CB06D /* array.swift in Sources */,
 				71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */,
 				71AFBD3D1CAA4AA3009CB06D /* euclid.actions.swift in Sources */,
 			);
@@ -553,6 +565,7 @@
 				71AFBD111CAA4519009CB06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71AFBD121CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +574,7 @@
 				71AFBD141CAA4519009CB06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71AFBD151CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +583,7 @@
 				71AFBD171CAA4519009CB06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

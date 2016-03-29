@@ -13,16 +13,18 @@ class ViewController: NSViewController, StoreSubscriber {
     @IBOutlet weak var textField: NSTextField!
     
 
-    override func viewDidLoad() {
+    override
+    func viewDidLoad() {
         super.viewDidLoad()
         euclidStore.subscribe(self)
     }
     
     func newState(state: EuclidState) {
-        print(state)
-        print(state.vector)
-        print()
-        textField.stringValue = "\(state)\n\(state.string)"
+        var output = "\(state)"
+        output += "\n" + "\(state.string)"
+        output += "\n" + "\(state.indices)"
+        
+        textField.stringValue = output
     }
 }
 

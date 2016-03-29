@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71AFBCEE1CAA4519009CB06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBCED1CAA4519009CB06D /* AppDelegate.swift */; };
+		71AFBCF01CAA4519009CB06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBCEF1CAA4519009CB06D /* ViewController.swift */; };
+		71AFBCF21CAA4519009CB06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AFBCF11CAA4519009CB06D /* Assets.xcassets */; };
+		71AFBCF51CAA4519009CB06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AFBCF31CAA4519009CB06D /* Main.storyboard */; };
+		71AFBD001CAA4519009CB06D /* MorshOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBCFF1CAA4519009CB06D /* MorshOSXTests.swift */; };
+		71AFBD0B1CAA4519009CB06D /* MorshOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD0A1CAA4519009CB06D /* MorshOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71AFBCFC1CAA4519009CB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71AFBCE21CAA4519009CB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AFBCE91CAA4519009CB06D;
+			remoteInfo = MorshOSX;
+		};
+		71AFBD071CAA4519009CB06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71AFBCE21CAA4519009CB06D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AFBCE91CAA4519009CB06D;
+			remoteInfo = MorshOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71AFBCEA1CAA4519009CB06D /* MorshOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorshOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AFBCED1CAA4519009CB06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71AFBCEF1CAA4519009CB06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71AFBCF11CAA4519009CB06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71AFBCF41CAA4519009CB06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71AFBCF61CAA4519009CB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AFBCFB1CAA4519009CB06D /* MorshOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorshOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AFBCFF1CAA4519009CB06D /* MorshOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorshOSXTests.swift; sourceTree = "<group>"; };
+		71AFBD011CAA4519009CB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AFBD061CAA4519009CB06D /* MorshOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorshOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AFBD0A1CAA4519009CB06D /* MorshOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorshOSXUITests.swift; sourceTree = "<group>"; };
+		71AFBD0C1CAA4519009CB06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AFBCE71CAA4519009CB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBCF81CAA4519009CB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBD031CAA4519009CB06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AFBCE11CAA4519009CB06D = {
+			isa = PBXGroup;
+			children = (
+				71AFBCEC1CAA4519009CB06D /* MorshOSX */,
+				71AFBCFE1CAA4519009CB06D /* MorshOSXTests */,
+				71AFBD091CAA4519009CB06D /* MorshOSXUITests */,
+				71AFBCEB1CAA4519009CB06D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71AFBCEB1CAA4519009CB06D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBCEA1CAA4519009CB06D /* MorshOSX.app */,
+				71AFBCFB1CAA4519009CB06D /* MorshOSXTests.xctest */,
+				71AFBD061CAA4519009CB06D /* MorshOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AFBCEC1CAA4519009CB06D /* MorshOSX */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBCED1CAA4519009CB06D /* AppDelegate.swift */,
+				71AFBCEF1CAA4519009CB06D /* ViewController.swift */,
+				71AFBCF11CAA4519009CB06D /* Assets.xcassets */,
+				71AFBCF31CAA4519009CB06D /* Main.storyboard */,
+				71AFBCF61CAA4519009CB06D /* Info.plist */,
+			);
+			path = MorshOSX;
+			sourceTree = "<group>";
+		};
+		71AFBCFE1CAA4519009CB06D /* MorshOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBCFF1CAA4519009CB06D /* MorshOSXTests.swift */,
+				71AFBD011CAA4519009CB06D /* Info.plist */,
+			);
+			path = MorshOSXTests;
+			sourceTree = "<group>";
+		};
+		71AFBD091CAA4519009CB06D /* MorshOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBD0A1CAA4519009CB06D /* MorshOSXUITests.swift */,
+				71AFBD0C1CAA4519009CB06D /* Info.plist */,
+			);
+			path = MorshOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AFBCE91CAA4519009CB06D /* MorshOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AFBD0F1CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSX" */;
+			buildPhases = (
+				71AFBCE61CAA4519009CB06D /* Sources */,
+				71AFBCE71CAA4519009CB06D /* Frameworks */,
+				71AFBCE81CAA4519009CB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorshOSX;
+			productName = MorshOSX;
+			productReference = 71AFBCEA1CAA4519009CB06D /* MorshOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71AFBCFA1CAA4519009CB06D /* MorshOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AFBD121CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXTests" */;
+			buildPhases = (
+				71AFBCF71CAA4519009CB06D /* Sources */,
+				71AFBCF81CAA4519009CB06D /* Frameworks */,
+				71AFBCF91CAA4519009CB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AFBCFD1CAA4519009CB06D /* PBXTargetDependency */,
+			);
+			name = MorshOSXTests;
+			productName = MorshOSXTests;
+			productReference = 71AFBCFB1CAA4519009CB06D /* MorshOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71AFBD051CAA4519009CB06D /* MorshOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AFBD151CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXUITests" */;
+			buildPhases = (
+				71AFBD021CAA4519009CB06D /* Sources */,
+				71AFBD031CAA4519009CB06D /* Frameworks */,
+				71AFBD041CAA4519009CB06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AFBD081CAA4519009CB06D /* PBXTargetDependency */,
+			);
+			name = MorshOSXUITests;
+			productName = MorshOSXUITests;
+			productReference = 71AFBD061CAA4519009CB06D /* MorshOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AFBCE21CAA4519009CB06D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jMath;
+				TargetAttributes = {
+					71AFBCE91CAA4519009CB06D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					71AFBCFA1CAA4519009CB06D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71AFBCE91CAA4519009CB06D;
+					};
+					71AFBD051CAA4519009CB06D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71AFBCE91CAA4519009CB06D;
+					};
+				};
+			};
+			buildConfigurationList = 71AFBCE51CAA4519009CB06D /* Build configuration list for PBXProject "MorshOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AFBCE11CAA4519009CB06D;
+			productRefGroup = 71AFBCEB1CAA4519009CB06D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AFBCE91CAA4519009CB06D /* MorshOSX */,
+				71AFBCFA1CAA4519009CB06D /* MorshOSXTests */,
+				71AFBD051CAA4519009CB06D /* MorshOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AFBCE81CAA4519009CB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AFBCF21CAA4519009CB06D /* Assets.xcassets in Resources */,
+				71AFBCF51CAA4519009CB06D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBCF91CAA4519009CB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBD041CAA4519009CB06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AFBCE61CAA4519009CB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AFBCF01CAA4519009CB06D /* ViewController.swift in Sources */,
+				71AFBCEE1CAA4519009CB06D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBCF71CAA4519009CB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AFBD001CAA4519009CB06D /* MorshOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AFBD021CAA4519009CB06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AFBD0B1CAA4519009CB06D /* MorshOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71AFBCFD1CAA4519009CB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AFBCE91CAA4519009CB06D /* MorshOSX */;
+			targetProxy = 71AFBCFC1CAA4519009CB06D /* PBXContainerItemProxy */;
+		};
+		71AFBD081CAA4519009CB06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AFBCE91CAA4519009CB06D /* MorshOSX */;
+			targetProxy = 71AFBD071CAA4519009CB06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71AFBCF31CAA4519009CB06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AFBCF41CAA4519009CB06D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71AFBD0D1CAA4519009CB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71AFBD0E1CAA4519009CB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71AFBD101CAA4519009CB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71AFBD111CAA4519009CB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71AFBD131CAA4519009CB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorshOSX.app/Contents/MacOS/MorshOSX";
+			};
+			name = Debug;
+		};
+		71AFBD141CAA4519009CB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorshOSX.app/Contents/MacOS/MorshOSX";
+			};
+			name = Release;
+		};
+		71AFBD161CAA4519009CB06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MorshOSX;
+			};
+			name = Debug;
+		};
+		71AFBD171CAA4519009CB06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MorshOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jMath.MorshOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MorshOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AFBCE51CAA4519009CB06D /* Build configuration list for PBXProject "MorshOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AFBD0D1CAA4519009CB06D /* Debug */,
+				71AFBD0E1CAA4519009CB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AFBD0F1CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AFBD101CAA4519009CB06D /* Debug */,
+				71AFBD111CAA4519009CB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71AFBD121CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AFBD131CAA4519009CB06D /* Debug */,
+				71AFBD141CAA4519009CB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71AFBD151CAA4519009CB06D /* Build configuration list for PBXNativeTarget "MorshOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AFBD161CAA4519009CB06D /* Debug */,
+				71AFBD171CAA4519009CB06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AFBCE21CAA4519009CB06D /* Project object */;
+}

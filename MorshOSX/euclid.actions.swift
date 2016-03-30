@@ -1,10 +1,13 @@
 import Foundation
 import ReSwift
 
-enum EuclidAction: Action {
-    case ChangeDensity(Int)
-    case ChangePhase(Int)
+struct EuclidChangeDensity: Action {
+    let value: Int
 }
 
-let changeDensity = EuclidAction.ChangeDensity
-let changePhase = EuclidAction.ChangePhase
+struct EuclidChangePhase: Action {
+    let value: Int
+}
+
+let euclidChangeDensity = { val in EuclidChangeDensity(value: val) }
+let euclidChangePhase = { val in EuclidChangePhase(value: val) }

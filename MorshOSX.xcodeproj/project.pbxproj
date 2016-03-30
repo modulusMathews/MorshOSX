@@ -22,6 +22,10 @@
 		71AFBD401CAA4AA3009CB06D /* euclid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD3C1CAA4AA3009CB06D /* euclid.swift */; };
 		71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */; };
 		71AFBD461CAAED29009CB06D /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD451CAAED29009CB06D /* array.swift */; };
+		71AFBD491CAB0402009CB06D /* shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD481CAB0402009CB06D /* shape.swift */; };
+		71AFBD4B1CAB0AA5009CB06D /* shape.actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD4A1CAB0AA5009CB06D /* shape.actions.swift */; };
+		71AFBD4D1CAB0AB0009CB06D /* shape.state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD4C1CAB0AB0009CB06D /* shape.state.swift */; };
+		71AFBD4F1CAB0AD0009CB06D /* shape.reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFBD4E1CAB0AD0009CB06D /* shape.reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,10 @@
 		71AFBD3C1CAA4AA3009CB06D /* euclid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = euclid.swift; sourceTree = "<group>"; };
 		71AFBD421CAA4B2B009CB06D /* MorshWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorshWindow.swift; sourceTree = "<group>"; };
 		71AFBD451CAAED29009CB06D /* array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		71AFBD481CAB0402009CB06D /* shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shape.swift; sourceTree = "<group>"; };
+		71AFBD4A1CAB0AA5009CB06D /* shape.actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shape.actions.swift; sourceTree = "<group>"; };
+		71AFBD4C1CAB0AB0009CB06D /* shape.state.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shape.state.swift; sourceTree = "<group>"; };
+		71AFBD4E1CAB0AD0009CB06D /* shape.reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shape.reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,7 @@
 		71AFBCEC1CAA4519009CB06D /* MorshOSX */ = {
 			isa = PBXGroup;
 			children = (
+				71AFBD471CAAFAF5009CB06D /* Shape */,
 				71AFBD441CAAECF3009CB06D /* Utilities */,
 				71AFBD411CAA4AAE009CB06D /* Euclid */,
 				71AFBCED1CAA4519009CB06D /* AppDelegate.swift */,
@@ -194,6 +203,17 @@
 				71AFBD451CAAED29009CB06D /* array.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		71AFBD471CAAFAF5009CB06D /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				71AFBD481CAB0402009CB06D /* shape.swift */,
+				71AFBD4A1CAB0AA5009CB06D /* shape.actions.swift */,
+				71AFBD4C1CAB0AB0009CB06D /* shape.state.swift */,
+				71AFBD4E1CAB0AD0009CB06D /* shape.reducer.swift */,
+			);
+			name = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,13 +349,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				71AFBD3F1CAA4AA3009CB06D /* euclid.state.swift in Sources */,
+				71AFBD4D1CAB0AB0009CB06D /* shape.state.swift in Sources */,
 				71AFBD401CAA4AA3009CB06D /* euclid.swift in Sources */,
+				71AFBD491CAB0402009CB06D /* shape.swift in Sources */,
 				71AFBCF01CAA4519009CB06D /* ViewController.swift in Sources */,
+				71AFBD4B1CAB0AA5009CB06D /* shape.actions.swift in Sources */,
 				71AFBD3E1CAA4AA3009CB06D /* euclid.reducer.swift in Sources */,
 				71AFBCEE1CAA4519009CB06D /* AppDelegate.swift in Sources */,
 				71AFBD461CAAED29009CB06D /* array.swift in Sources */,
 				71AFBD431CAA4B2B009CB06D /* MorshWindow.swift in Sources */,
 				71AFBD3D1CAA4AA3009CB06D /* euclid.actions.swift in Sources */,
+				71AFBD4F1CAB0AD0009CB06D /* shape.reducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

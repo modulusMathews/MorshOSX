@@ -1,5 +1,4 @@
 import Foundation
-
 import ReSwift
 
 struct EuclidState: Euclid, StateType {

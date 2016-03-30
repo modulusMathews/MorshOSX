@@ -48,7 +48,7 @@ private
 func coreToFull(coreVec: [Bool], resolution: Int, phase: Int) -> [Bool] {
     if (resolution == 0) { return [] }
     
-    var result: [Bool] = []
+    var result = [Bool]()
     let coreLength = coreVec.count
     
     for i in 0..<resolution {

@@ -16,13 +16,17 @@ class ViewController: NSViewController, StoreSubscriber {
     override
     func viewDidLoad() {
         super.viewDidLoad()
-        euclidStore.subscribe(self)
+        shapeStore.subscribe(self)
     }
     
-    func newState(state: EuclidState) {
-        var output = "\(state)"
-        output += "\n" + "\(state.string)"
-        output += "\n" + "\(state.indices)"
+    func newState(state: ShapeState) {
+        var output = ""
+        
+        for layer in state.layers {
+//            output += "\(layer)" + "\n"
+            output += "\(layer.string)" + "\n"
+            output += "\n"
+        }
         
         textField.stringValue = output
     }

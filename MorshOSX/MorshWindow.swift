@@ -21,14 +21,19 @@ class MorshWindow: NSWindow {
     func keyUp(event: NSEvent) {
         switch event.keyCode {
         case 34: // i --> incrementDensity
-            euclidStore.dispatch(changeDensity(1))
+            shapeStore.dispatch(euclidChangeDensity(1))
         case 43: // , --> decrementDensity
-            euclidStore.dispatch(changeDensity(-1))
+            shapeStore.dispatch(euclidChangeDensity(-1))
             
         case 37: // l --> incrementPhase
-            euclidStore.dispatch(changePhase(1))
+            shapeStore.dispatch(euclidChangePhase(1))
         case 38: // j --> decrementPhase
-            euclidStore.dispatch(changePhase(-1))
+            shapeStore.dispatch(euclidChangePhase(-1))
+            
+        case 44: // / --> addLayer
+            shapeStore.dispatch(shapeAddLayer())
+        case 47: // . --> removeLayer
+            shapeStore.dispatch(shapeRemoveLayer())
             
         default:
             Swift.print("\(event.keyCode)")

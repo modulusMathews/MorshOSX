@@ -7,14 +7,14 @@ struct EuclidReducer: Reducer {
     func handleAction(action: Action, state: EuclidState?) -> EuclidState {
         var newState = state ?? baseState
         
-        if let euclidAction = action as? EuclidAction {
-            switch euclidAction {
-            case .ChangeDensity(let val):
-                updateDensity(&newState, value: val)
-                
-            case .ChangePhase(let val):
-                updatePhase(&newState, value: val)
-            }
+        switch action {
+        case let euclidAction as EuclidChangeDensity:
+            updateDensity(&newState, value: euclidAction.value)
+            
+        case let euclidAction as EuclidChangePhase:
+            updatePhase(&newState, value: euclidAction.value)
+        
+        default: break
         }
         
         return newState
@@ -27,7 +27,6 @@ extension EuclidReducer {
     }
 }
 
-private
 func updateDensity(inout state: EuclidState, value: Int) {
     state.density += value
     
@@ -38,7 +37,6 @@ func updateDensity(inout state: EuclidState, value: Int) {
     }
 }
 
-private
 func updatePhase(inout state: EuclidState, value: Int) {
     state.phase += value
     

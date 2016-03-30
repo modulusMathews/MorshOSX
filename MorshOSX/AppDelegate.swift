@@ -11,16 +11,13 @@ import ReSwift
 
 
 let resolution = 12
-let euclidState = EuclidState(resolution: resolution)
-let euclidReducer = EuclidReducer(defaultState: euclidState)
-let euclidStore = Store(reducer: euclidReducer, state: euclidState)
+let shapeState = ShapeState(resolution: resolution)
+let shapeReducer = ShapeReducer(defaultState: shapeState)
+let shapeStore = Store(reducer: shapeReducer, state: shapeState)
 
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
     }
@@ -28,7 +25,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
-
-
 }
 
